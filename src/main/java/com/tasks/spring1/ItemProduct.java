@@ -27,10 +27,4 @@ public class ItemProduct {
         this.product = product;
     }
 
-    @Override
-    public String toString() {
-        return "ItemProduct{" +
-                "id=" + id +
-                ", product='" + product + '\'';
-    }
 }

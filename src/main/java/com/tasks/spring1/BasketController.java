@@ -19,7 +19,6 @@ public class BasketController {
         return "Позиция(и) " + id + " успешно добавлен(ы) в корзину!";
     }
 
-
     @GetMapping(path = "/get")
     public List<ItemProduct> getItemInBasket() {
        return basketService.get();
