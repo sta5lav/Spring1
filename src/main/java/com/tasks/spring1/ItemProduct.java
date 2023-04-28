@@ -6,7 +6,6 @@ public class ItemProduct {
 
     public ItemProduct() {
     }
-
     public ItemProduct(int id, String product) {
         this.id = id;
         this.product = product;
@@ -32,7 +31,6 @@ public class ItemProduct {
     public String toString() {
         return "ItemProduct{" +
                 "id=" + id +
-                ", product='" + product + '\'' +
-                '}';
+                ", product='" + product + '\'';
     }
 }

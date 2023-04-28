@@ -23,6 +23,7 @@ public class Store {
         return items.values();
     }
 
+
     public void add(ItemProduct itemProduct) {
         items.put(itemProduct.getId(), itemProduct);
     }
